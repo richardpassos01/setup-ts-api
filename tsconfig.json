@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "incremental": false,
+    "target": "es6",
+    "module": "commonjs",
+    "lib": [
+      "ES2015",
+      "ES2016",
+      "ES2017",
+      "ES2018",
+      "ES2019",
+      "ES2020",
+      "ESNext"
+    ],
+    "allowJs": true,
+    "checkJs": true,
+    "sourceMap": false,
+    "outDir": "./build",
+    "noEmit": false,
+    "resolveJsonModule": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true
+  },
+
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
